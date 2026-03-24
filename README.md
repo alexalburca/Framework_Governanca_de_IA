@@ -1,0 +1,1 @@
+# Framework-de-Governan-a-de-IA-para-Opera-es-Cr-ticas
