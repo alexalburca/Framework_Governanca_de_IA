@@ -1,1 +1,1 @@
-# Framework-de-Governan-a-de-IA-para-Opera-es-Cr-ticas
+Framework de Governança de IA para Operações Críticas
