@@ -2,7 +2,7 @@
 
 ## Missão
 
-Desenvolver um Framework de Governança de IA para Operações Críticas. O objetivo é fornecer um guia prático para a implementação segura e eficaz de IA, minimizando riscos operacionais e garantindo conformidade total.
+Guia prático para a implementação segura e eficaz de IA, minimizando riscos operacionais e garantindo conformidade total.
 
 ## 1\. Introdução
 
