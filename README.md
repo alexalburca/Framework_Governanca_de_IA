@@ -8,7 +8,7 @@
 
 ```mermaid
 flowchart TD
-    Start([Implementação de Governança de IA]):::neutral
+    Start([Framework de Governança de IA para Operações Críticas]):::neutral
     
     subgraph Princípios ["Princípios Fundamentais"]
     direction TB
@@ -21,7 +21,7 @@ flowchart TD
         Responsabilidade --> Privacidade
     end
     
-    Decisao{Selecionar Pilar}:::decision
+    Decisao{Pilares do Framework}:::decision
     
     subgraph Etica ["Pilar 1: Ética"]
     direction TB
