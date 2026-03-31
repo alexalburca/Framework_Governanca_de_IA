@@ -41,7 +41,7 @@ Este pilar foca na estruturação organizacional e estratégica necessária para
 Este pilar garante que todos os sistemas de IA operem dentro dos limites legais e regulatórios, minimizando riscos jurídicos e reputacionais.
 
 * **Requisitos da LGPD:** Garantir o direito à explicação e à revisão humana de decisões automatizadas que afetem indivíduos, especialmente em serviços essenciais. A conformidade com a LGPD é fundamental para a proteção de dados pessoais.
-* **Alinhamento com o PL 2338/2023:** Implementar os direitos de informação, contestação e participação humana significativa, conforme estabelecido pelo Projeto de Lei. Isso inclui a necessidade de avaliação de impacto algorítmico e a categorização de riscos.
+* **Alinhamento Regulatório:** Implementar os direitos de informação, contestação e participação humana significativa, conforme estabelecido pelo Projeto de Lei. Isso inclui a necessidade de avaliação de impacto algorítmico e a categorização de riscos.
 * **Classificação de Risco:** Estabelecer uma triagem robusta para identificar sistemas de IA de Alto Risco (ex: gestão de tráfego de rede, controle de infraestrutura crítica) conforme critérios do AI Act europeu e do PL 2338/2023. Sistemas de alto risco exigem controles mais rigorosos e avaliações de conformidade mais frequentes.
 * **Relatórios Obrigatórios:** Definir o fluxo e a responsabilidade para a elaboração do Relatório de Impacto Algorítmico (AIA) e do RIPD (Relatório de Impacto à Proteção de Dados), garantindo que esses documentos sejam completos, precisos e submetidos às autoridades competentes quando necessário.
 
