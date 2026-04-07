@@ -13,9 +13,6 @@ Este glossário fornece definições claras para os termos técnicos e siglas ut
 | **Automação de Drift** | Capacidade do sistema de monitorar ativamente a degradação (drift) e disparar alertas automáticos ou processos de retreinamento para corrigir o modelo. |
 | **IA Agêntica (Agentic AI)** | Sistemas de IA avançados que possuem autonomia para tomar decisões, quebrar problemas complexos em etapas, planejar e executar ações contínuas para atingir um objetivo, sem precisar de comandos constantes do usuário.|
 | **Human-in-the-loop (HITL)** |Abordagem na qual a intervenção humana é uma etapa obrigatória no processo de decisão da IA. A máquina sugere, mas o humano analisa e aprova (crítico para operações de alto risco). |
-| **Interpretabilidade** | Capacidade de um ser humano entender a causa de uma decisão tomada por um modelo de IA, facilitando a confiança e a auditoria. |
-| **Transparência** | Princípio que exige que as organizações sejam abertas sobre como os sistemas de IA são desenvolvidos, treinados e operados.| 
-| **Explicabilidade (Explainable AI - XAI)** | A capacidade de rastrear, entender e traduzir de forma clara como e por que um modelo de IA chegou a uma determinada decisão ou resultado.| 
 | **ISO/IEC 42001** | Padrão internacional que especifica requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão de IA. |
 | **LGPD (Lei Geral de Proteção de Dados)** | Legislação brasileira (Lei nº 13.709/2018) que regula o tratamento de dados pessoais, inclusive em meios digitais e por sistemas de IA. |
 | **NIST AI RMF** | *Artificial Intelligence Risk Management Framework* do NIST; um guia voluntário para gerenciar riscos de IA e promover o desenvolvimento de sistemas confiáveis. |
@@ -27,6 +24,9 @@ Este glossário fornece definições claras para os termos técnicos e siglas ut
 | **Guardrails de Segurança** | Limites restritos, regras ou filtros codificados ao redor do modelo de IA para impedi-lo de gerar respostas prejudiciais, executar ações não autorizadas ou sair do escopo de sua função.| 
 | **Segurança por Design (Security by Design)** | Princípio de desenvolvimento que exige que as práticas de segurança, testes de vulnerabilidade e controles de acesso sejam integrados desde o rascunho inicial do projeto de IA, e não adicionados como uma "correção" no final.| 
 | **Resiliência e Robustez** | Capacidade de um sistema de IA manter seu funcionamento adequado, seguro e confiável mesmo quando submetido a condições anormais, estresse operacional ou ataques maliciosos (como dados de entrada intencionalmente corrompidos).|
+| **Interpretabilidade** | Capacidade de um ser humano entender a causa de uma decisão tomada por um modelo de IA, facilitando a confiança e a auditoria. |
+| **Transparência** | Princípio que exige que as organizações sejam abertas sobre como os sistemas de IA são desenvolvidos, treinados e operados.| 
+| **Explicabilidade (Explainable AI - XAI)** | A capacidade de rastrear, entender e traduzir de forma clara como e por que um modelo de IA chegou a uma determinada decisão ou resultado.| 
 | **Feedback Loop** |Mecanismo onde as saídas (resultados) de um sistema e as correções feitas pelos usuários retornam ao sistema como novos dados de entrada, permitindo que a IA "aprenda com os próprios erros" e melhore com o tempo.| 
 | **Benchmarking** |Processo contínuo de comparação das métricas, processos e conformidade da IA da sua operação com as melhores práticas de mercado e padrões de excelência da indústria.| 
 
