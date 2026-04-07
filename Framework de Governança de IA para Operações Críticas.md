@@ -91,3 +91,8 @@ Para garantir a relevância e a eficácia contínua deste Framework em um cenár
 \guia\_lgpd.pdf
 \20250822\_Cost-of-a-Data-Breach-Report-2025.pdf
 
+
+---
+## Glossário e Definições
+
+Consulte o [Glossário de Termos Técnicos](./GLOSSARY.md) para obter definições detalhadas de todos os termos técnicos e siglas utilizados neste framework.

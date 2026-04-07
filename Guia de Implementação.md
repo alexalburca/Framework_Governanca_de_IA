@@ -310,3 +310,8 @@ A melhoria contínua depende de ciclos regulares de medição, auditoria, aprend
 
 
 
+
+---
+## Glossário e Termos Técnicos
+
+Para uma lista completa de definições de termos técnicos, siglas e conceitos utilizados neste guia, consulte o [Glossário de Termos Técnicos](./GLOSSARY.md).

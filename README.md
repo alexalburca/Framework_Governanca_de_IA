@@ -1,146 +1,34 @@
-**Framework de Governança de IA para Operações Críticas**
+# Framework de Governança de IA para Operações Críticas
 
-*   **Descrição:** Desenvolvimento de um framework prático e adaptável para governança de soluções de Inteligência Artificial em ambientes de operações críticas (telecom, redes, datacenter). O framework abordaria aspectos como ética, segurança, conformidade regulatória (LGPD, por exemplo), monitoramento de desempenho e mitigação de riscos.
-*   **Objetivo:** Fornecer um guia estruturado para a implementação segura e eficaz de IA em infraestruturas críticas, garantindo conformidade e minimizando riscos operacionais.
-*   **Problema que resolve:** A falta de diretrizes claras para governar o uso de IA em ambientes sensíveis, levando a riscos de segurança, conformidade e desempenho.
-*   **Público Beneficiado:** Gerentes de projeto, líderes de TI, equipes de segurança da informação e profissionais de operações em setores regulados.
-*   **Entregável Possível:** Um documento de framework detalhado (playbook/guia), incluindo templates, checklists e um protótipo de dashboard de monitoramento de governança.
+## Objetivo do Projeto
 
-```mermaid
-flowchart TD
-    Start([Framework de Governança de IA para Operações Críticas]):::neutral
-    
-    subgraph Princípios ["Princípios Fundamentais"]
-    direction TB
-        CentralidadeHumana["Centralidade Humana e Bem-Estar"]
-        Transparência["Transparência e Explicabilidade"]
-        Justica["Justiça e Não Discriminação"]
-        Confiabilidade["Confiabilidade e Robustez"]
-        Segurança["Segurança e Privacidade"]
-        Responsabilidade["Responsabilidade e Prestação de Contas"]
-        Sustentabilidade["Sustentabilidade"]
-        
-        CentralidadeHumana --> Transparência
-        Transparência --> Justica
-        Justica --> Confiabilidade
-        Confiabilidade --> Segurança
-        Segurança --> Responsabilidade
-        Responsabilidade --> Sustentabilidade
+Desenvolver um framework prático e adaptável para a governança de soluções de Inteligência Artificial em ambientes de operações críticas (telecom, redes, datacenter). O objetivo é fornecer um guia estruturado para a implementação segura e eficaz de IA em infraestruturas críticas, garantindo conformidade e minimizando riscos operacionais.
 
-    end
-    
-    Decisao{Pilares do Framework}:::decision
-    
-    subgraph Organização ["Pilar 1: Organização da IA"]
-    direction TB
-        PEtica[Alinhamento e Estratégia]
-        PrincEt["Modelo de Governança"]
-        Vies["Supervisão e Comitês"]
-        Impacto["Papéis e Responsabilidades"]
-        Valores["Políticas de Uso"]
-        PEtica --> PrincEt
-        PrincEt --> Vies
-        Vies --> Impacto
-        Impacto --> Valores
-    end
-    
-    subgraph Conformidade ["Pilar 2: Conformidade"]
-    direction TB
-        PRiscos[Requisitos da LGPD]
-        Ident["Alinhamento Regulatório"]
-        Avaliacao["Classificação de Risco"]
-        Mitigacao[Relatórios Obrigatórios]
-        
-        PRiscos --> Ident
-        Ident --> Avaliacao
-        Avaliacao --> Mitigacao
-        
-    end
-    
-    subgraph Ética ["Pilar 3: Ética"]
-    direction TB
-        PConform[Princípios Éticos Fundamentais]
-        Regul[Transparência e Explicabilidade]
-        Aud[Supervisão Humana]
-        Rel[Mitigação de Viés]
-        
-        PConform --> Regul
-        Regul --> Aud
-        Aud --> Rel
-        
-    end
-    
-    subgraph Inovacao ["Pilar 4: Dados"]
-    direction TB
-        PInov[Governança de Dados]
-        DesSeg["Monitoramento do Ciclo de Vida"]
-        Colab[Automação de Drift]
-        Atual[Governança de IA Agêntica]
-        Escala[Guardrails de Segurança]
-        PInov --> DesSeg
-        DesSeg --> Colab
-        Colab --> Atual
-        Atual --> Escala
-    end
-    
-    subgraph Governanca ["Pilar 5: Segurança da IA"]
-    direction TB
-        PGov[Resiliência e Robustez]
-        Estrut[Gestão de Incidentes]
-        Politicas[Segurança por Design]
+## Problema ou Oportunidade
 
-        PGov --> Estrut
-        Estrut --> Politicas
- 
-    end
-    
-    Converge((Aprimoramento Contínuo)):::converge
-    subgraph Aprim ["Aprimoramento Contínuo"]
-    direction TB
-        Feedback["Revisão Periódica"]
-        Aval["Feedback Loop"]
-        Melhorias["Benchmarking"]
-        Adapt[Adaptação Tecnológica]
-        Feedback --> Aval
-        Aval --> Melhorias
-        Melhorias --> Adapt
-    end
-    
-    Start --> Princípios
-    Sustentabilidade --> Decisao
-    
-    Decisao -->|Organização| PEtica
-    Decisao -->|Conformidade| PRiscos
-    Decisao -->|Ética| PConform
-    Decisao -->|Dados| PInov
-    Decisao -->|Segurança| PGov
-    
-    Valores --> Converge
-    Mitigacao --> Converge
-    Rel --> Converge
-    Escala --> Converge
-    Politicas --> Converge
-    
-    Converge --> Feedback
-    
-    classDef etica fill:#00f500,stroke:#333,stroke-width:2px,color:#000
-    classDef riscos fill:#f11111,stroke:#fff,stroke-width:2px,color:#fff
-    classDef conform fill:#0066ff,stroke:#fff,stroke-width:2px,color:#fff
-    classDef inov fill:#ffff00,stroke:#333,stroke-width:2px,color:#000
-    classDef gov fill:#b300ff,stroke:#fff,stroke-width:2px,color:#fff
-    classDef neutral fill:#e1e1e1,stroke:#333,stroke-width:2px,color:#000
-    classDef decision fill:#ffcc00,stroke:#333,stroke-width:2px,color:#000
-    classDef converge fill:#cccccc,stroke:#333,stroke-width:2px,color:#000
-    
-    class PEtica,PrincEt,Vies,Impacto,Valores etica
-    class PRiscos,Ident,Avaliacao,Mitigacao,Monitor riscos
-    class PConform,Regul,Aud,Rel,Cert conform
-    class PInov,DesSeg,Colab,Atual,Escala inov
-    class PGov,Estrut,Politicas,Train,Account gov
-    class Start,Decisao,Converge neutral
-    class Decisao decision
-    class Converge,Feedback,Aval,Melhorias,Adapt converge
-    
-    style Princípios fill:#f0f0f0
-    style Aprim fill:#f0f0f0
-```
+A falta de diretrizes claras para governar o uso de IA em ambientes sensíveis leva a riscos de segurança, conformidade regulatória (como LGPD e AI Act), desempenho e ética. Este framework surge como uma oportunidade para preencher essa lacuna, oferecendo uma metodologia abrangente para gerenciar a IA de forma responsável e resiliente, especialmente em contextos onde a falha não é uma opção.
+
+## Resultado Esperado
+
+Espera-se que as organizações sejam capazes de integrar a IA de forma responsável, maximizando seus benefícios e minimizando seus riscos inerentes. O framework visa capacitar gerentes de projeto, líderes de TI, equipes de segurança da informação e profissionais de operações a adotar a IA com confiança, garantindo a continuidade dos serviços e a integridade dos dados.
+
+## Etapas ou Plano de Execução (Pilares do Framework)
+
+O framework é estruturado em cinco pilares interconectados, que guiam a implementação da governança de IA:
+
+1.  **Pilar I: Organização da IA**: Foca na estruturação organizacional e estratégica, incluindo o mapeamento e gestão da *Shadow AI*, definição de papéis e responsabilidades (CAIO, AI Ethics Officer) e políticas de uso aceitável.
+2.  **Pilar II: Conformidade Legal e Gerenciamento de Riscos**: Garante que os sistemas de IA operem dentro dos limites legais e regulatórios, abordando LGPD, PL 2338/2023, AI Act (UE), NIST AI RMF e ISO/IEC 42001, com foco na classificação de risco e relatórios de impacto.
+3.  **Pilar III: Ética, Transparência e Interpretabilidade**: Aborda a dimensão ética da IA, promovendo a confiança através da transparência, explicabilidade, supervisão humana (*Human-in-the-loop*) e mitigação de vieses.
+4.  **Pilar IV: Dados, AIOps e Infraestrutura**: Concentra-se nas práticas técnicas e operacionais para a gestão de dados, monitoramento do ciclo de vida da IA (AIMS), automação de *drift*, governança de IA agêntica e implementação de *guardrails* de segurança.
+5.  **Pilar V: Segurança da IA (AI Security)**: Dedicado à proteção dos sistemas de IA contra ameaças cibernéticas, ataques adversariais, gestão de incidentes e segurança por design.
+
+Um **Mecanismo de Aprimoramento Contínuo** garante a relevância e eficácia do framework através de revisões periódicas, *feedback loops*, *benchmarking* e adaptação tecnológica.
+
+## Entregável Final
+
+O entregável principal é um **documento de framework detalhado (playbook/guia)**, incluindo templates, checklists e um protótipo de dashboard de monitoramento de governança. Este guia serve como uma metodologia abrangente para a implementação de um Framework de Governança de Inteligência Artificial (IA) em ambientes de Operações Críticas.
+
+---
+## Glossário
+
+Para definições detalhadas de termos técnicos e siglas utilizados neste repositório, consulte o [Glossário de Termos Técnicos](./GLOSSARY.md).
