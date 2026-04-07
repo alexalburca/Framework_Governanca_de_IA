@@ -32,3 +32,8 @@ O entregável principal é um **documento de framework detalhado (playbook/guia)
 ## Glossário
 
 Para definições detalhadas de termos técnicos e siglas utilizados neste repositório, consulte o [Glossário de Termos Técnicos](./GLOSSARY.md).
+
+---
+## Checklist de Implementação
+
+Para auxiliar na implementação e conformidade com o framework, consulte o [Checklist de Implementação](./CHECKLIST.md).
