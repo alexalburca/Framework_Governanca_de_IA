@@ -177,7 +177,7 @@ flowchart TB
 ---
 ## Glossário
 
-Para definições detalhadas de termos técnicos e siglas utilizados neste repositório, consulte o [Glossário de Termos Técnicos](.glossário.md).
+Para definições detalhadas de termos técnicos e siglas utilizados neste repositório, consulte o [Glossário de Termos Técnicos](glossário.md).
 
 ---
 ## Checklist de Implementação
