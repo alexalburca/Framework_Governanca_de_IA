@@ -320,3 +320,8 @@ Para uma lista completa de definições de termos técnicos, siglas e conceitos 
 ## Checklist de Implementação
 
 Para auxiliar na implementação e conformidade com o framework, consulte o [Checklist de Implementação](./CHECKLIST.md).
+
+---
+## Cronograma do Projeto
+
+Para acompanhar as etapas e o progresso do projeto, consulte o [Cronograma do Projeto](./SCHEDULE.md).
