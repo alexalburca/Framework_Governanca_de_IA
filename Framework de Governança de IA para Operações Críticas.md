@@ -95,4 +95,4 @@ Para garantir a relevância e a eficácia contínua deste Framework em um cenár
 ---
 ## Glossário e Definições
 
-Consulte o [Glossário de Termos Técnicos](./GLOSSARY.md) para obter definições detalhadas de todos os termos técnicos e siglas utilizados neste framework.
+Consulte o [Glossário de Termos Técnicos](./glossário.md) para obter definições detalhadas de todos os termos técnicos e siglas utilizados neste framework.
