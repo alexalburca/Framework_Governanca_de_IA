@@ -71,6 +71,7 @@ O projeto será dividido em 9 sprints, com foco na entrega incremental dos compo
 **Atividades:**
 *   Criação do documento `Framework de Governança de IA para Operações Críticas.md`.
 *   Definição dos princípios fundamentais e dos 5 pilares da governança.
+*   Revisão do framework
 
 ### Sprint 4: Elaboração do Guia
 
@@ -79,6 +80,7 @@ O projeto será dividido em 9 sprints, com foco na entrega incremental dos compo
 **Atividades:**
 *   Criação do `Guia de Implementação.md`.
 *   Inclusão de exemplos práticos e tabelas de referência.
+*   Revisão cruzada Framework + Guia para garantir alinhamento conceitual
 
 ### Sprint 5: Glossário e Revisão da Documentação
 
@@ -103,6 +105,7 @@ O projeto será dividido em 9 sprints, com foco na entrega incremental dos compo
 **Atividades:**
 *   Definição de KPIs e métricas para o dashboard.
 *   Criação de um documento de especificação ou protótipo conceitual do dashboard.
+*   Validação do conjunto de métricas/KPIs com mentor ou stakeholder representativo.
 
 ### Sprint 8: Material de Apresentação de Pitch
 
