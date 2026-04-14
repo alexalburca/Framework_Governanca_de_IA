@@ -187,4 +187,4 @@ Para auxiliar na implementação e conformidade com o framework, consulte o [Che
 ---
 ## Cronograma do Projeto
 
-Para acompanhar as etapas e o progresso do projeto, consulte o [Cronograma do Projeto](./SCHEDULE.md).
+Para acompanhar as etapas e o progresso do projeto, consulte o [Cronograma do Projeto](./Gerenciamento/cronograma.md).
