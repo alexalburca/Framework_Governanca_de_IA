@@ -88,6 +88,8 @@ O projeto será dividido em 9 sprints, com foco na entrega incremental dos compo
 **Objetivo:** Padronizar a terminologia técnica e realizar uma revisão abrangente dos documentos base.
 **Atividades:**
 *   Criação do `glossário.md` com termos técnicos e siglas.
+*   Criação do `GerenciamentoPartesInteressadas.md` visa gerenciar as parte interessadas.
+*   Criação do `Requisitos Não Funcionais (NFR).md` visa detalhar os requisitos não funcionais do projeto.
 *   Revisão e atualização do `README.md`, `Framework de Governança` e `Guia de Implementação` para garantir consistência e clareza, incluindo links para o glossário.
 
 ### Sprint 6: Checklist
