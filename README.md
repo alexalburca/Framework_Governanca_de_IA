@@ -1,3 +1,5 @@
+# Acesse a webpage do framework em https://alexalburca.github.io/Framework_Governanca_de_IA/
+
 # Framework de Governança de IA para Operações Críticas
 
 ## Objetivo do Projeto
