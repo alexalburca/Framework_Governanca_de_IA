@@ -2,7 +2,7 @@
 
 # App com Dashboard de monitoramento: https://gaiac-governan-a-de-ia-890036845291.us-east1.run.app
 
-# GAIAC - Framework de Governança de IA para Operações Críticas
+# Framework de GAIAC - Governança de IA para Operações Críticas
 
 ## Objetivo do Projeto
 
